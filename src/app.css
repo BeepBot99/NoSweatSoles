@@ -1,1 +1,20 @@
 @import 'tailwindcss';
+
+@theme {
+    --color-darker: oklch(0.35 0.036 221.246);
+    --color-dark: oklch(0.416 0.05 223.48);
+    --color-darkest: oklch(0.317 0.035 223.153);
+    --color-light: oklch(0.88 0.033 223.443);
+    --color-accent: oklch(0.791 0.138 216.073);
+
+    --font-heading: Impact, 'Arial Black', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-body: system-ui, sans-serif;
+}
+
+body {
+    @apply bg-light font-body;
+}
+
+html {
+    @apply scroll-smooth;
+}

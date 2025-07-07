@@ -15,9 +15,9 @@
 	let { imgSrc, imgAlt, name, price, children, quantity, preorder, oldPrice }: Props = $props();
 </script>
 
-<div class="lg:h-100 flex flex-col lg:flex-row">
+<div class="md:h-100 flex flex-col md:flex-row">
 	<img class="max-h-full border-6 border-darkest/80" src={imgSrc} alt={imgAlt}>
-	<div class="lg:border-t-2 border-r-2 border-l-2 lg:border-l-0 border-dark/80 flex-1 flex flex-col justify-between">
+	<div class="md:border-t-2 border-r-2 border-l-2 md:border-l-0 border-dark/80 flex-1 flex flex-col justify-between">
 		<div class="p-4">
 			<div class="font-heading tracking-wide uppercase mb-2">
 				<h2>

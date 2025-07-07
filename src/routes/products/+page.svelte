@@ -9,7 +9,7 @@
 
 <div class="mx-5 lg:mx-20">
 	<h1 class="font-heading uppercase text-5xl lg:text-7xl text-darkest text-center lg:text-left my-12">Our Products</h1>
-	<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+	<div class="grid grid-cols-1 xl:grid-cols-2 gap-4">
 		<Product imgSrc="{base}/spray.webp" imgAlt="Natural Shoe Deodorizer Spray"
 						 name="Natural Shoe Deodorizer Spray" quantity="8 oz"
 						 price="$8.99"

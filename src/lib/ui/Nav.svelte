@@ -1,18 +1,19 @@
 <script>
 	import NavButton from '$lib/ui/NavButton.svelte';
+	import {base} from "$app/paths"
 </script>
 
 <div class="flex justify-between bg-dark text-light">
 	<a
-		href="/"
+		href={base}
 		class="flex p-4 gap-2 items-center hover:bg-darker transition-background duration-100">
-		<img class="size-20" src="/logo.png" alt="No Sweat Soles Logo">
+		<img class="size-20" src="{base}/logo.png" alt="No Sweat Soles Logo">
 		<span class="text-4xl font-heading uppercase tracking-wide">
 			No Sweat Soles
 		</span>
 	</a>
 	<div class="lg:grid lg:grid-flow-col lg:auto-cols-fr">
-		<NavButton class="hidden lg:flex" href="/#about">
+		<NavButton class="hidden lg:flex" href="{base}#about">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
 					 class="size-6">
 				<path stroke-linecap="round" stroke-linejoin="round"
@@ -20,7 +21,7 @@
 			</svg>
 			About Us
 		</NavButton>
-		<NavButton href="/products">
+		<NavButton href="{base}/products">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
 					 class="size-6">
 				<path stroke-linecap="round" stroke-linejoin="round"
@@ -28,14 +29,14 @@
 			</svg>
 			Products
 		</NavButton>
-		<NavButton href="/status">
+		<NavButton href="{base}/status">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
 					 class="size-8 lg:size-6">
 				<path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
 			</svg>
 			Preorder Status
 		</NavButton>
-		<NavButton class="hidden lg:flex" href="/#contact">
+		<NavButton class="hidden lg:flex" href="{base}#contact">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
 					 class="size-6">
 				<path stroke-linecap="round" stroke-linejoin="round"

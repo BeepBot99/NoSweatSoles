@@ -1,3 +1,7 @@
+<script lang="ts">
+	import {base} from "$app/paths"
+</script>
+
 <svelte:head>
 	<title>No Sweat Soles</title>
 </svelte:head>
@@ -11,7 +15,7 @@
 <div class="flex items-center justify-center p-8">
 	<a
 		class="bg-darkest py-4 mb-5 lg:mb-10 lg:hover:mb-9 px-6 font-heading uppercase text-2xl tracking-wide text-light transition-all duration-150 lg:hover:bg-light border-2 border-darkest lg:hover:font-bold lg:hover:text-3xl lg:hover:text-darkest hover:scale-125"
-		href="/products">Preorder Now</a>
+		href="{base}/products">Preorder Now</a>
 </div>
 
 <div class="bg-darkest py-16 px-12 text-light mb-16">
